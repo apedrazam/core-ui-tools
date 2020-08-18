@@ -57,7 +57,7 @@ module.exports = {
         bindings :
         [
           {
-            selector       : 'input[type="text"]',
+            selector       : 'input[type="date"]',
             domEvent       : 'change',
             domEventMapper : 'ui/mapper/input'
           }

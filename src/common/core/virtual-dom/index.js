@@ -77,7 +77,8 @@ class VirtualDOM
       component.render()
 
       subtreePath = this.tree.bfs(componentId)
-      for(const componentId of subtreePath)
+
+      for(const componentId of subtreePath.reverse())
       {
         const subtreeComponent = this.getController(componentId)
         subtreeComponent.bind()

@@ -28,13 +28,15 @@ h2{
 h3{
   font-size: 1.5rem;
   font-weight: 700;
-  @extend %gutter-md;
+  color: map-get($palette, color-primary);
+  margin: 1.5rem .5rem .25rem;
 }
 
 h4{
   font-size: 1rem;
   font-weight: 700;
   margin: 1.5rem .5rem .25rem;
+  text-transform: uppercase;
   color: map-get($palette, color-grey_L2);
 }
 
